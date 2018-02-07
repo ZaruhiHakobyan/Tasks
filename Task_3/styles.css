@@ -1,0 +1,88 @@
+html, body{
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.clean{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.content{
+    min-width: 300px;
+    padding: 20px;
+    margin: 0 auto;
+	background: #dfdfdf;
+	width: 700px;
+	margin-top: 30px;
+    background: url('./images/bg.jpg') repeat;
+}
+.task_description{
+	padding: 0 10px;
+}
+.task_description ol{
+	padding: 10px 20px;
+}
+
+.slider_div{
+	border: 1px solid grey;
+	border-radius: 5px;
+	padding: 20px;
+    padding-top: 60px;
+	margin-top: 20px;
+}
+.image_div .for_img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+}
+.image_div{
+    position: relative;
+    height: 400px;
+}
+#myImg{
+    height: 100%;
+    width: 100%;
+    border: 3px dashed grey;
+    box-sizing: border-box;
+}
+.for_img .ui-wrapper{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.upload_inp{
+    display: none;
+}
+
+.upload_div{
+    width: 150px;
+    background: green;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 20px;
+    user-select: none;
+    position: relative;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>People list</title>
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="./styles.css">
+
+        <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/VisualEditor_-_Icon_-_Bullet-list-rtl.svg/2000px-VisualEditor_-_Icon_-_Bullet-list-rtl.svg.png" type="image/png" sizes="16x16">
+    </head>
+    <body>
+        <div class="content">
+            <div class="task_description">
+                <h3>People list</h3>
+                <ol>
+                    <li>Ask user to fill several people names.( at least 7 names)</li>
+                    <li>Display corresponding vertical list of items (names) with different color for each item.</li>
+                    <li>Allow user to sort the list by drag and drop of selected item to desired position.</li>
+                </ol>
+            </div>
+            <div class="add">
+                <p>Add at least 7 people to your list to be able to sort them.</p>
+                <input id="add_hooman" placeholder=""/>
+                <div id="add_btn"><span class="ui-icon ui-icon-plusthick"></span></div>
+                <div class="clean"></div>
+            </div>
+            <div class="my_list">
+                <ul id="sortable_list">
+                    <li class="ui-state-default list_item" data-id="1"><div class="new_hooman">Vzgo</div><span data-id="1" class="ui-icon ui-icon-close del_btn"></span><div class="clean"></div></li>
+                </ul>
+                <div class="clean"></div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="./script.js"></script>
+
+    </body>
+</html>

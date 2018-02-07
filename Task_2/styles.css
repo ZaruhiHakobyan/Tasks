@@ -1,0 +1,105 @@
+html, body{
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.clean{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.content{
+    min-width: 300px;
+    padding: 20px;
+    margin: 0 auto;
+	background: #dfdfdf;
+	width: 500px;
+	margin-top: 30px;
+    background: url('./images/bg.png') repeat-y;
+}
+.task_description{
+	padding: 0 10px;
+    background: #f6f6f6;
+}
+.task_description ol{
+	padding: 10px 20px;
+}
+
+.add, .my_list{
+	border: 1px solid grey;
+	border-radius: 5px;
+	width: 100%;
+	padding: 5px;
+	margin-top: 20px;
+    background: #f6f6f6;
+}
+.list_item{
+	position: relative;
+}
+#sortable_list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+#sortable_list li {
+	padding: 10px 5px;
+    font-size: 20px;
+    cursor: pointer;
+	margin-top: 5px;
+	border-radius: 3px;
+}
+#sortable_list li span {
+	position: absolute;
+	margin-left: 10px;
+}
+#add_hooman{
+	width: 300px;
+}
+#add_hooman, .new_hooman{
+	float: left;
+	padding: 5px;
+	border-radius: 5px;
+	outline: none;
+}
+.new_hooman{
+	text-align: center;
+	width: 93%;
+}
+
+#add_btn{
+	position: relative;
+	width: 17px;
+    height: 28px;
+	float: left;
+	margin-left: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+#add_btn span, .del_btn{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+@media screen and (max-width: 540px){
+
+}*/

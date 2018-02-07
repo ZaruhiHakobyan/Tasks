@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Image zoom</title>
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="./styles.css">
+
+        <link rel="icon" href="https://images.vexels.com/media/users/3/141954/isolated/lists/3aca043b0902ac1d47c419c47a972421-photo-camera-digital-picture.png" type="image/png" sizes="16x16">
+    </head>
+    <body>
+        <div class="content">
+            <div class="task_description">
+                <h3>Image zoom</h3>
+                <ol>
+                    <li>Ask user to select some image file (png, jpg, etc..) and display it in some fixed-sized area (e.g. 200 x 200), centered in window.</li>
+                    <li>Draw a frame around image’s bounding rectangle (4 vertexes connected with dashed/dotted lines - selection box).</li>
+                    <li>On mouse drag event of each vertex zoom-in or zoom-out the selected image correspondingly (depending on drag direction).</li>
+                </ol>
+            </div>
+            <input class="upload_inp" type="file" name="filename" accept="image/gif, image/jpeg, image/png">
+            <div class="upload_div " >
+                <span>Browse</span>
+            </div>
+            <div class="image_div"><div class="for_img"></div></div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="./script.js"></script>
+
+    </body>
+</html>
